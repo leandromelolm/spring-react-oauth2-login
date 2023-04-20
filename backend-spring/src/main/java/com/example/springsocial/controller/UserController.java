@@ -24,6 +24,6 @@ public class UserController {
     }
     @GetMapping("/public")
     public String rotaPublica() {
-        return "Teste rota publica";
+        return "Rota pública";
     }
 }
